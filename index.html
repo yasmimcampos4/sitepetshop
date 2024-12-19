@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Banho e Tosa</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="pata.webp" class="image-container" alt="Imagem de um pet" />
+        <h1>AGENDAMENTO DE BANHO E TOSA</h1>
+               
+
+    </header>
+
+
+    <div class="container">
+
+        <div id="div1">
+            <form id="registroform">
+                <label for="nome-pet">Nome do Pet *</label>
+                <input type="text" id="nome-pet" placeholder="nome-pet">
+
+                <label for="raca">Raça *</label>
+                <input type="text" id="raca" placeholder="raça">
+
+                <label for="dono-pet">Dono do Pet *</label>
+                <input type="text" id="dono-pet" placeholder="nome-dono">
+
+                <label for="telefone">Telefone *</label>
+                <input type="text" id="telefone" placeholder="(00) 00000-0000">
+
+                <button type="submit" class="btn-agendar">Agendar Pet</button>
+            </form>
+        </div>
+
+        <div id='div2'>
+            <table id="tabela-pets">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome do Pet</th>
+                        <th>Raça</th>
+                        <th>Dono do Pet</th>
+                        <th>Telefone</th>
+                        <th>Remover</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Linhas serão inseridas aqui dinamicamente -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="testante.js"></script>
+</body>
+
+</html>
